@@ -4,6 +4,20 @@
 
 body {
     text-align: center;
+    background: linear-gradient(to bottom left, orange, white);
+}
+
+
+img {
+    width:  300px;
+    height: 300px;
+}
+
+.container {
+    background: white;
+    padding-top: 40px;
+    padding-bottom: 41px;
+    margin: 20px;
 }
 
 .btn-container {
@@ -12,4 +26,35 @@ body {
     padding-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+button {
+    font-size: 1.2em;
+    border-radius: 10px;
+}
+
+#flip-btn {
+    background: linear-gradient(to bottom left, lightblue, white);
+}
+
+#clear-btn {
+    background: linear-gradient(to bottom left, orange, white);
+}
+
+#clear-btn:hover, #flip-btn:hover {
+    filter: brightness(65%);
+}
+
+h2 {
+    color: orange;
+}
+
+table {
+    text-align: center;
+    margin: auto;
+    border: 2px solid orange;
+}
+
+tr, th, td {
+    outline: 1px solid orange;
 }
